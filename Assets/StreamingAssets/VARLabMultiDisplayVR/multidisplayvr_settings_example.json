@@ -1,0 +1,76 @@
+{
+    "system": {
+        "overrideClipPlanes": false,
+        "nearClipPlane": 0.0,
+        "farClipPlane": 0.0,
+        "defaultHeadPositionX": 0.0,
+        "defaultHeadPositionY": 1.7000000476837159,
+        "defaultHeadPositionZ": 0.0
+    },
+    "users": [
+        {
+            "name": "User Alpha",
+            "headPoseActionSet": "",
+            "headPoseAction": "",
+            "headPoseSource": "",
+            "defaultHeadPositionX": 0.0,
+            "defaultHeadPositionY": 1.7000000476837159,
+            "defaultHeadPositionZ": 0.0,
+            "overrideClipPlanes": false,
+            "nearClipPlane": 0.0,
+            "farClipPlane": 0.0,
+            "interpupillaryDistance": 0.06300000101327896,
+            "eyeCenterOffsetX": 0.0,
+            "eyeCenterOffsetY": 0.0,
+            "eyeCenterOffsetZ": 0.0,
+            "eyeCenterRotationX": 0.0,
+            "eyeCenterRotationY": 0.0,
+            "eyeCenterRotationZ": 0.0
+        }
+    ],
+    "renderViews": [
+        {
+            "name": "RV Main",
+            "stereoModeValue": "SideBySide",
+            "sizeX": 2.0,
+            "sizeY": 2.0,
+            "centerX": 0.0,
+            "centerY": 1.0,
+            "centerZ": 1.0,
+            "normalX": 0.0,
+            "normalY": 0.0,
+            "normalZ": 1.0,
+            "upX": 0.0,
+            "upY": 1.0,
+            "upZ": 0.0,
+            "renderResolutionX": 1024,
+            "renderResolutionY": 1024
+        }
+    ],
+    "displayScreens": [
+        {
+            "name": "DS TopHalf",
+            "sourceRenderViewName": "RV Main",
+            "sourceRectangle": {
+                "offsetModeValue": "Pixel",
+                "sizeModeValue": "Pixel",
+                "offsetX": 0.0,
+                "offsetY": 0.0,
+                "sizeX": 1024.0,
+                "sizeY": 512.0
+            }
+        },
+        {
+            "name": "DS BottomHalf",
+            "sourceRenderViewName": "RV Main",
+            "sourceRectangle": {
+                "offsetModeValue": "Pixel",
+                "sizeModeValue": "Pixel",
+                "offsetX": 0.0,
+                "offsetY": 512.0,
+                "sizeX": 1024.0,
+                "sizeY": 512.0
+            }
+        }
+    ]
+}
